@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Todo } from '../../models/Todo';
 
 @Component({
@@ -21,7 +21,7 @@ export class TodosComponent implements OnInit {
       {
         id: 2,
         title: 'Todo Two', 
-        completed: false
+        completed: true
       },
       {
         id: 3,
